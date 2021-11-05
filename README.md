@@ -5,6 +5,8 @@ A fork of the original Github Plus iA Writer template with all the original grea
 ## Working On
 - [x] Dark Mode
 - [x] JetBrains Mono on code blocks
+- [ ] Better color palette
+- [ ] Change color scheme for code block
 - [ ] Dark mode on the flow charts and sequence charts
 - [ ] ...
 
