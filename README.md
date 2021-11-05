@@ -10,5 +10,7 @@ A fork of the original Github Plus iA Writer template with all the original grea
 - [ ] Dark mode on the flow charts and sequence charts
 - [ ] ...
 
+## Preview
+![](docs/assets/dark_mode.png)
 ## Original README
 [Original README](Orig_README.md)
