@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
 .night-mode, .night-mode .markdown-body {
   background-color: #101010;
@@ -5,7 +6,8 @@
 }
 
 .night-mode .markdown-body a {
-  color: #0C63C7;
+  /* Changed color to a dark mode friendlier one */
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .night-mode .markdown-body hr {
@@ -13,7 +15,8 @@
 }
 
 .night-mode .markdown-body blockquote {
-  color: #999;
+  /* Changed color to a dark mode friendlier one */
+  color: rgba(255, 255, 255, 0.6);
   border-left-color: #333;
 }
 
@@ -50,10 +53,80 @@
 }
 
 .night-mode .markdown-body img {
-  background-color: #fff;
+  /* Made the background clear, so the white wouldn't show so much */
+  background-color: transparent;
 }
 
 .night-mode .markdown-body code,
 .night-mode .markdown-body pre {
   background-color: #242422;
+}
+
+/* ADDED BY Carlos */ 
+.night-mode .markdown-body code {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* re style block quote, also changed github css */
+
+.night-mode blockquote {
+    background-color: rgba(36, 36, 34, 0.6) !important;
+/* def affects quote, but didn't see yellow */
+    border-left: 5px solid rgba(255, 255, 255, 0.6) !important;
+    padding: 1.25em 1.5em !important;
+}
+
+.night-mode blockquote p {
+/*    background-color: rgba(36, 36, 34, 0.6) !important; */
+    background-color: transparent !important;
+/* def affect the background of the text, but didn't see yellow */
+}
+
+/* re style table */
+
+.night-mode .markdown-body table th:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(36, 36, 34, 0.8);
+/* highlight yellow on hover */
+}
+
+.night-mode .markdown-body table tr:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgba(36, 36, 34, 0.6);
+/* highlight yellow on hover */
+}
+
+.night-mode .markdown-body th {
+    background-color: rgba(36, 36, 34, 0.8);
+/* no changes noticed */
+}
+
+
+/* style for note tags */
+
+.night-mode .note-tags {
+    color: rgba(255, 255, 255, 0.7);
+/* nothing noticeable */
+}
+
+.night-mode .note-tags code {
+    color: rgba(255, 255, 255, 0.7);
+/* text of non-title tags */
+    background: rgba(36, 36, 34, 0.5);
+/* affects the non-title tags */
+    border-radius: 0;
+    padding: 2px 5px
+}
+
+.night-mode .note-tags code:empty {
+    display: none
+}
+
+.night-mode .note-tags .notebook {
+    background: rgba(36, 36, 34, 0.6);
+/* affects the main tag title */
+    color: #fff;
+	font-size: 1em;
+/* main title text color */
+    margin-right: 6px
 }
