@@ -1,17 +1,12 @@
 # Github Plus
 
-A custom Github flavored iA Writer template with math, graph, and amazing code syntax highlighting support.
+A fork of the original Github Plus iA Writer template with all the original great features, plus dark mode, JetBrains Mono in the code block, and trying a few other things.
 
-Check here for a [LIVE DEMO](https://arithxu.com/iA-Writer-Templates-Github-Plus/). 
+## Working On
+- [x] Dark Mode
+- [x] JetBrains Mono on code blocks
+- [ ] Dark mode on the flow charts and sequence charts
+- [ ] ...
 
-## Features
-- [x] Tags
-- [x] LaTeX math
-- [x] Custom quotation blocks
-- [x] Code highlighting
-- [x] Flow chart
-- [x] Sequence chart
-- [x] Audio link 
-
-## Preview
-![](docs/assets/preview.png)
+## Original README
+[Original README](Orig_README.md)
